@@ -1,16 +1,67 @@
-# shadow_ui_bottom_navbar
+# ✨shadow_ui_bottom_navbar
 
-A new Flutter project.
+A new horizontal scrolling navbar with shadow effects for each menu item
 
-## Getting Started
+## Demo:
+https://user-images.githubusercontent.com/60876387/123096173-70ccb900-d44c-11eb-85d3-2352d93bd0f8.mp4
 
-This project is a starting point for a Flutter application.
+https://user-images.githubusercontent.com/60876387/123096158-6e6a5f00-d44c-11eb-90a4-939be26ea8ca.mp4
 
-A few resources to get you started if this is your first Flutter project:
+## Usage
+Add dependency
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+```
+shadow_ui_bottom_navbar: ^0.0.1
+```
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Import Package
+
+```
+import 'package:shadow_ui_bottom_navbar/shadow_ui_bottom_navbar.dart';
+```
+
+👩‍💻 How to use 
+````
+List<Widget> _widgets = [
+    Container(
+      color: Colors.redAccent,
+    ),
+    Container(
+      color: Colors.blueAccent,
+    ),
+    Container(
+      color: Colors.greenAccent,
+    ),
+    Container(
+      color: Colors.purpleAccent,
+    ),
+    Container(
+      color: Colors.pinkAccent,
+    ),
+  ];
+
+  List<IconData> icons = [
+    Icons.home,
+    Icons.mail,
+    Icons.notifications,
+    Icons.settings,
+    Icons.play_arrow
+  ];
+
+  List titles = ["Home", "Inbox", "Notifications", "Settings", "Play"];
+@override
+  Widget build(BuildContext context) {
+    return Shadow_ui_bottom(
+      bgcolor: Colors.black,
+      widgets: _widgets,
+      activeicon: Colors.green,
+      activeshadowcolor: Colors.lightGreen,
+      icon: icons,
+      title: titles,
+    );
+  }
+````
+
+
+## 🌟 Open Source
+Feel free to make changes in the project
