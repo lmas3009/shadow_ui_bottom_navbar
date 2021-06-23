@@ -14,6 +14,7 @@ A new horizontal scrolling navbar with shadow effects for each menu item
 </video>
  <video  controls src="https://user-images.githubusercontent.com/60876387/123096158-6e6a5f00-d44c-11eb-90a4-939be26ea8ca.mp4">
 </video> -->
+
 https://user-images.githubusercontent.com/60876387/123096173-70ccb900-d44c-11eb-85d3-2352d93bd0f8.mp4
 
 https://user-images.githubusercontent.com/60876387/123096158-6e6a5f00-d44c-11eb-90a4-939be26ea8ca.mp4
