@@ -1,6 +1,6 @@
 {
-    "name": "shadow_ui_bottom_navbar",
-    "short_name": "shadow_ui_bottom_navbar",
+    "name": "example",
+    "short_name": "example",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
