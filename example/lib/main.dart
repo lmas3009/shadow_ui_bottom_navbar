@@ -41,7 +41,7 @@ class _ExampleState extends State<Example> {
       color: Colors.greenAccent,
     ),
     Container(
-      color: Colors.orangeAccent,
+      color: Colors.purpleAccent,
     ),
     Container(
       color: Colors.pinkAccent,
